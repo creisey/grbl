@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=stm32grbl.map -Os --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\stm32grbl -TC:\CooCox\CoIDE\configuration\ProgramData\stm32grbl/link.ld -g -L..\..\..\.. -lm">
+      <target file="stm32grbl.elf" lastModified="162df501220">
+         <source file="..\obj\probe.o" lastModified="162df4ff682"/>
+         <source file="..\obj\usb_core.o" lastModified="162df4ff765"/>
+         <source file="..\obj\coolant_control.o" lastModified="162df4ff7e1"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="162df4ff94c"/>
+         <source file="..\obj\protocol.o" lastModified="162df4ffa33"/>
+         <source file="..\obj\usb_int.o" lastModified="162df4ffaaa"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="162df4ffb10"/>
+         <source file="..\obj\usb_desc.o" lastModified="162df4ffb69"/>
+         <source file="..\obj\usb_regs.o" lastModified="162df4ffc5f"/>
+         <source file="..\obj\print.o" lastModified="162df4ffd15"/>
+         <source file="..\obj\gcode.o" lastModified="162df4ffe6f"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="162df4ffeb9"/>
+         <source file="..\obj\stepper.o" lastModified="162df4fffec"/>
+         <source file="..\obj\hw_config.o" lastModified="162df50005c"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="162df5000f4"/>
+         <source file="..\obj\usb_prop.o" lastModified="162df500180"/>
+         <source file="..\obj\usb_pwr.o" lastModified="162df5001ee"/>
+         <source file="..\obj\usb_init.o" lastModified="162df50024e"/>
+         <source file="..\obj\main.o" lastModified="162df5002e2"/>
+         <source file="..\obj\system.o" lastModified="162df5003c2"/>
+         <source file="..\obj\jog.o" lastModified="162df500445"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="162df5004f9"/>
+         <source file="..\obj\nuts_bolts.o" lastModified="162df5005a6"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="162df500619"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="162df5006e7"/>
+         <source file="..\obj\report.o" lastModified="162df5007db"/>
+         <source file="..\obj\usb_sil.o" lastModified="162df500839"/>
+         <source file="..\obj\motion_control.o" lastModified="162df5008f7"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="162df5009a3"/>
+         <source file="..\obj\stm32f10x_it.o" lastModified="162df500a04"/>
+         <source file="..\obj\settings.o" lastModified="162df500acc"/>
+         <source file="..\obj\planner.o" lastModified="162df500bbe"/>
+         <source file="..\obj\usb_endp.o" lastModified="162df500c2e"/>
+         <source file="..\obj\misc.o" lastModified="162df500c94"/>
+         <source file="..\obj\serial.o" lastModified="162df500d27"/>
+         <source file="..\obj\limits.o" lastModified="162df500de5"/>
+         <source file="..\obj\spindle_control.o" lastModified="162df500e85"/>
+         <source file="..\obj\usb_mem.o" lastModified="162df500eed"/>
+         <source file="..\obj\usb_istr.o" lastModified="162df500f4b"/>
+         <source file="..\obj\eeprom.o" lastModified="162df500ffb"/>
+      </target>
+   </processor>
+</history>
